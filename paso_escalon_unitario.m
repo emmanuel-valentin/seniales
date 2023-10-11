@@ -7,4 +7,7 @@ impulso = t == 0;
 step = t >= 0;
 rampa = t.*step;
 quad = t.^2.*step;
-plot(t, [impulso step, rampa, quad])
+%plot(t, impulso)
+plot(t, step)
+% plot(t, rampa)
+% plot(t, quad)
